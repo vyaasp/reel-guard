@@ -1,0 +1,138 @@
+{
+  "title": "Night pass",
+  "task": "Cut a short documentary using real footage over the narration. Caption the spoken lines in sync.",
+  "fps": 30,
+  "durationSeconds": 33.333333333333336,
+  "narration": "public/narration.wav",
+  "cues": [
+    {
+      "from": 0,
+      "to": 85,
+      "text": "From the space station, night moves quickly."
+    },
+    {
+      "from": 92,
+      "to": 174,
+      "text": "At first, the ground is hard to see."
+    },
+    {
+      "from": 181,
+      "to": 260,
+      "text": "Then city lights trace the edge of the coast."
+    },
+    {
+      "from": 267,
+      "to": 369,
+      "text": "Over the ocean, lightning flashes through the clouds."
+    },
+    {
+      "from": 376,
+      "to": 476,
+      "text": "Farther south, a green ribbon comes into view."
+    },
+    {
+      "from": 483,
+      "to": 556,
+      "text": "That's the aurora, high above the weather."
+    },
+    {
+      "from": 563,
+      "to": 647,
+      "text": "Charged particles stir the upper atmosphere,"
+    },
+    {
+      "from": 654,
+      "to": 733,
+      "text": "and the sky glows as the station passes."
+    },
+    {
+      "from": 740,
+      "to": 837,
+      "text": "At the edge of the planet, a thin line brightens."
+    },
+    {
+      "from": 844,
+      "to": 892,
+      "text": "Then daylight takes over."
+    },
+    {
+      "from": 899,
+      "to": 995,
+      "text": "Below the station, the ocean turns blue again."
+    }
+  ],
+  "footage": [
+    {
+      "file": "station-over-earth.mp4",
+      "source": "https://svs.gsfc.nasa.gov/30623/",
+      "sourceStartSeconds": 28,
+      "sourceEndSeconds": 36
+    },
+    {
+      "file": "pacific-clouds.mp4",
+      "source": "https://svs.gsfc.nasa.gov/30180/",
+      "sourceStartSeconds": 0,
+      "sourceEndSeconds": 8
+    },
+    {
+      "file": "coastal-cities.mp4",
+      "source": "https://svs.gsfc.nasa.gov/30180/",
+      "sourceStartSeconds": 8,
+      "sourceEndSeconds": 16
+    },
+    {
+      "file": "lightning.mp4",
+      "source": "https://svs.gsfc.nasa.gov/30180/",
+      "sourceStartSeconds": 23,
+      "sourceEndSeconds": 31
+    },
+    {
+      "file": "southern-aurora.mp4",
+      "source": "https://svs.gsfc.nasa.gov/30179/",
+      "sourceStartSeconds": 2,
+      "sourceEndSeconds": 10
+    },
+    {
+      "file": "aurora-close.mp4",
+      "source": "https://svs.gsfc.nasa.gov/30179/",
+      "sourceStartSeconds": 11,
+      "sourceEndSeconds": 19
+    },
+    {
+      "file": "red-aurora.mp4",
+      "source": "https://svs.gsfc.nasa.gov/31375/",
+      "sourceStartSeconds": 18,
+      "sourceEndSeconds": 26
+    },
+    {
+      "file": "north-america.mp4",
+      "source": "https://svs.gsfc.nasa.gov/31375/",
+      "sourceStartSeconds": 60,
+      "sourceEndSeconds": 68
+    },
+    {
+      "file": "terminator.mp4",
+      "source": "https://svs.gsfc.nasa.gov/30180/",
+      "sourceStartSeconds": 44,
+      "sourceEndSeconds": 52
+    },
+    {
+      "file": "daybreak.mp4",
+      "source": "https://svs.gsfc.nasa.gov/30623/",
+      "sourceStartSeconds": 14,
+      "sourceEndSeconds": 22
+    },
+    {
+      "file": "daylight-clouds.mp4",
+      "source": "https://svs.gsfc.nasa.gov/30623/",
+      "sourceStartSeconds": 111,
+      "sourceEndSeconds": 119
+    },
+    {
+      "file": "blue-ocean.mp4",
+      "source": "https://svs.gsfc.nasa.gov/30623/",
+      "sourceStartSeconds": 87,
+      "sourceEndSeconds": 95
+    }
+  ]
+}

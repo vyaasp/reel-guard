@@ -1,54 +1,24 @@
-# Remotion video
+# Reel Guard
 
-<p align="center">
-  <a href="https://github.com/remotion-dev/logo">
-    <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://github.com/remotion-dev/logo/raw/main/animated-logo-banner-dark.apng">
-      <img alt="Animated Remotion Logo" src="https://github.com/remotion-dev/logo/raw/main/animated-logo-banner-light.gif">
-    </picture>
-  </a>
-</p>
+Cut a short documentary from the narration and 12 stock shots in `public/`.
+Edit `src/edit.json` and preview the cut with `npm run dev`.
 
-Welcome to your Remotion project!
+Install dependencies with `npm ci`. Put FFmpeg and ffprobe on your PATH, then
+start Claude Code from this folder.
 
-## Commands
+- Edits to TypeScript or the timeline run the same checks as `npm run check:timeline`.
+  They cover footage gaps and overlaps, clip reuse, 1–8s cuts, caption timing
+  against the reference cues, and duration against the narration WAV.
+- The Stop hook runs the same checks first. If they pass, it renders at 25%
+  scale and scans for black frames (0.5s), freezes (3s), and silence (0.8s).
+  It blocks once, then checks the correction and reports any remaining failure.
+- Run `npm run check:video` in CI. It exits nonzero on any failure and appends a
+  row to `evals.jsonl`. A timeline failure has `renderAttempted: false`.
 
-**Install Dependencies**
+`brief.json` holds the reference narration cues and source credits. The caption
+check compares cue text and timing within three frames. It does not transcribe
+the render or judge the quality of the cut.
 
-```console
-npm i --loglevel=error
-```
-
-**Start Preview**
-
-```console
-npm run dev
-```
-
-**Render video**
-
-```console
-npx remotion render
-```
-
-**Upgrade Remotion**
-
-```console
-npx remotion upgrade
-```
-
-## Docs
-
-Get started with Remotion by reading the [fundamentals page](https://www.remotion.dev/docs/the-fundamentals).
-
-## Help
-
-We provide help on our [Discord server](https://discord.gg/6VzzNDwUwV).
-
-## Issues
-
-Found an issue with Remotion? [File an issue here](https://github.com/remotion-dev/remotion/issues/new).
-
-## License
-
-Note that for some entities a company license is needed. [Read the terms here](https://github.com/remotion-dev/remotion/blob/main/LICENSE.md).
+Video courtesy of the Earth Science and Remote Sensing Unit, NASA Johnson
+Space Center, and [NASA Goddard SVS](https://svs.gsfc.nasa.gov/). See the brief
+for the original footage links and ranges. Narration uses macOS text to speech.

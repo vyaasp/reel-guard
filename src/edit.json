@@ -1,0 +1,129 @@
+{
+  "fps": 30,
+  "durationFrames": 1000,
+  "clips": [
+    {
+      "file": "station-over-earth.mp4",
+      "from": 0,
+      "to": 92,
+      "sourceFrom": 0
+    },
+    {
+      "file": "pacific-clouds.mp4",
+      "from": 92,
+      "to": 181,
+      "sourceFrom": 0
+    },
+    {
+      "file": "coastal-cities.mp4",
+      "from": 181,
+      "to": 267,
+      "sourceFrom": 0
+    },
+    {
+      "file": "lightning.mp4",
+      "from": 267,
+      "to": 376,
+      "sourceFrom": 0
+    },
+    {
+      "file": "southern-aurora.mp4",
+      "from": 376,
+      "to": 483,
+      "sourceFrom": 0
+    },
+    {
+      "file": "aurora-close.mp4",
+      "from": 483,
+      "to": 563,
+      "sourceFrom": 0
+    },
+    {
+      "file": "red-aurora.mp4",
+      "from": 563,
+      "to": 654,
+      "sourceFrom": 0
+    },
+    {
+      "file": "north-america.mp4",
+      "from": 654,
+      "to": 740,
+      "sourceFrom": 0
+    },
+    {
+      "file": "terminator.mp4",
+      "from": 740,
+      "to": 844,
+      "sourceFrom": 0
+    },
+    {
+      "file": "daybreak.mp4",
+      "from": 844,
+      "to": 899,
+      "sourceFrom": 0
+    },
+    {
+      "file": "daylight-clouds.mp4",
+      "from": 899,
+      "to": 1000,
+      "sourceFrom": 0
+    }
+  ],
+  "captions": [
+    {
+      "from": 0,
+      "to": 85,
+      "text": "From the space station, night moves quickly."
+    },
+    {
+      "from": 92,
+      "to": 174,
+      "text": "At first, the ground is hard to see."
+    },
+    {
+      "from": 181,
+      "to": 260,
+      "text": "Then city lights trace the edge of the coast."
+    },
+    {
+      "from": 267,
+      "to": 369,
+      "text": "Over the ocean, lightning flashes through the clouds."
+    },
+    {
+      "from": 376,
+      "to": 476,
+      "text": "Farther south, a green ribbon comes into view."
+    },
+    {
+      "from": 483,
+      "to": 556,
+      "text": "That's the aurora, high above the weather."
+    },
+    {
+      "from": 563,
+      "to": 647,
+      "text": "Charged particles stir the upper atmosphere,"
+    },
+    {
+      "from": 654,
+      "to": 733,
+      "text": "and the sky glows as the station passes."
+    },
+    {
+      "from": 740,
+      "to": 837,
+      "text": "At the edge of the planet, a thin line brightens."
+    },
+    {
+      "from": 844,
+      "to": 892,
+      "text": "Then daylight takes over."
+    },
+    {
+      "from": 899,
+      "to": 995,
+      "text": "Below the station, the ocean turns blue again."
+    }
+  ]
+}
